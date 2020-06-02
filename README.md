@@ -1,4 +1,4 @@
-# Met4FoF use case machine learning
+# Met4FoF use case hardware sensors
 
 This is supported by European Metrology Programme for Innovation and Research (EMPIR)
 under the project
