@@ -8,13 +8,19 @@ under the project
 ## Purpose
 
 This is an implementation of an agent-based approach to interconnect hardware
-sensors from the manufacturer _Seneca_ and processing the produced datastreams.
+sensors from the manufacturer _Seneca_ and processing the produced data streams
+including sensor data buffering as part of the agents' implementation.
 
 ## Getting started
 
+Note that you need to have access to the actual hardware sensor setup, to execute
+most of the code. To get more information on that, contact the
+[author of the code](https://github.com/bangxiangyong).
+
 First you need to create a virtual environment, install all dependencies and finally
- execute the examples. To install the dependencies you first have to install _numpy_
-  and then the specified requirements from the `requirements.txt`.
+execute the examples. To install the dependencies we utilize
+[_pip-tools_](https://pypi.org/project/pip-tools/) to get the specified requirements
+from the `requirements.txt`.
   
 ```shell
 $ python -m venv agentMET4FOF_sensors_env
