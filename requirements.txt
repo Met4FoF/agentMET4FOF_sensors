@@ -38,9 +38,8 @@ flask-compress==1.5.0     # via dash
 flask-login==0.4.1        # via octoprint
 flask==0.12.5             # via dash, flask-assets, flask-babel, flask-compress, flask-login, octoprint
 frozendict==1.2           # via octoprint
-future==0.18.2            # via octoprint, serial
+future==0.18.2            # via octoprint
 idna==2.9                 # via requests
-iso8601==0.1.12           # via serial
 itsdangerous==1.1.0       # via flask
 jinja2==2.8.1             # via flask, flask-babel, octoprint
 joblib==0.15.1            # via scikit-learn
@@ -72,13 +71,13 @@ pylru==1.2.0              # via octoprint
 pyopenssl==19.1.0         # via requests
 pyparsing==2.4.7          # via matplotlib, packaging
 pyro4==4.80               # via osbrain
-pyserial==3.4             # via octoprint
+pyserial==3.4             # via -r requirements.in, octoprint
 pytest-mock==3.1.0        # via dash
 pytest-sugar==0.9.3       # via dash
 pytest==5.4.3             # via dash, pytest-mock, pytest-sugar
 python-dateutil==2.8.1    # via matplotlib, pandas
 pytz==2020.1              # via babel, pandas
-pyyaml==5.3.1             # via octoprint, serial, watchdog
+pyyaml==5.3.1             # via octoprint, watchdog
 pyzmq==19.0.1             # via osbrain
 regex==2020.5.14          # via awesome-slugify, octoprint
 requests[security]==2.23.0  # via dash, octoprint, percy
@@ -91,7 +90,6 @@ scipy==1.4.1              # via scikit-learn
 selenium==3.141.0         # via dash
 semantic-version==2.8.5   # via octoprint
 sentry-sdk==0.13.2        # via octoprint
-serial==0.0.97            # via -r requirements.in
 serpent==1.30.2           # via pyro4
 six==1.15.0               # via cryptography, cycler, packaging, plotly, pyopenssl, python-dateutil, retrying, websocket-client
 sn3218==1.2.7             # via automationhat
