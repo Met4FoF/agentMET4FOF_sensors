@@ -1,0 +1,54 @@
+# Met4FoF use case machine learning
+
+This is supported by European Metrology Programme for Innovation and Research (EMPIR)
+under the project
+[Metrology for the Factory of the Future (Met4FoF)](https://met4fof.eu), project number
+17IND12.
+
+## Purpose
+
+This is an implementation of an agent-based approach to interconnect hardware
+sensors from the manufacturer _Seneca_ and processing the produced datastreams.
+
+## Getting started
+
+First you need to create a virtual environment, install all dependencies and finally
+ execute the examples. To install the dependencies you first have to install _numpy_
+  and then the specified requirements from the `requirements.txt`.
+  
+```shell
+$ python -m venv agentMET4FOF_sensors_env
+$ source agentMET4FOF_sensors_env/bin/activate
+(agentMET4FOF_sensors_env) $ pip install --upgrade pip setuptools pip-tools
+(agentMET4FOF_sensors_env) $ pip-sync
+```
+
+In case you are using PyCharm, you will already find proper run configurations at the
+appropriate place in the IDE. If not you can proceed executing the script files
+ manually.
+
+If you have any questions please get in touch with
+[the author](https://github.com/bangxiangyong).
+
+### Scripts
+
+The interesting parts you find in the subfolder [_agentMET4FOF_ML_](agentMET4FOF_ML).
+
+### Note
+
+In the event of agents not terminating cleanly, run
+
+```shell
+taskkill /f /im python.exe /t
+```
+
+in Windows Command Prompt to terminate all background python processes.
+
+## References
+
+For details about the agents refer to the
+[upstream repository _agentMET4FOF_](https://github.com/bangxiangyong/agentMET4FOF)
+
+## Screenshot of web visualization
+
+![Web Screenshot](https://raw.githubusercontent.com/bangxiangyong/agentMET4FOF/develop/docs/screenshot_met4fof.png)
