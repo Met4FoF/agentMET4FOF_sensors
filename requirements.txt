@@ -94,7 +94,7 @@ serpent==1.30.2           # via pyro4
 six==1.15.0               # via cryptography, cycler, packaging, plotly, pyopenssl, python-dateutil, retrying, websocket-client
 sn3218==1.2.7             # via automationhat
 soupsieve==2.0.1          # via beautifulsoup4
-spidev==3.4               # via st7735
+spidev==3.5               # via st7735
 st7735==0.0.4             # via automationhat
 termcolor==1.1.0          # via pytest-sugar
 threadpoolctl==2.1.0      # via scikit-learn
