@@ -1,4 +1,4 @@
-name: agentMET4FOF_bayesian_neural_network_ZeMA
+name: agentMET4FOF_sensors
 channels:
     - defaults
     - conda-forge
