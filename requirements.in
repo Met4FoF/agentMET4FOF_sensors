@@ -2,5 +2,5 @@ agentMET4FOF
 automationhat
 dash<=1.0.0
 numpy
-OctoPrint
+OctoPrint>=1.4.1rc1
 pyserial
