@@ -38,7 +38,7 @@ If you have any questions please get in touch with
 
 ### Scripts
 
-The interesting parts you find in the subfolder [_agentMET4FOF_ML_](agentMET4FOF_ML).
+The interesting parts you find in the subfolder [_agentMET4FOF_sensors_](agentMET4FOF_sensors).
 
 ### Note
 
